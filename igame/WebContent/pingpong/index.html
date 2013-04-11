@@ -7,7 +7,9 @@
 </head>
 <body>
 	<header>
-		<h1>Ping Pong</h1>
+		<h1>Ping Pong Game</h1>
+		<p>1P(w=up,s=down)</p>
+		<p>2P(↑=up,↓=down)</p>
 	</header>
 	<div id="game">
 		<div id="playground">
@@ -15,8 +17,12 @@
 			<div id="paddleB" class="paddle"></div>
 			<div id="ball"></div>
 		</div>
+		<div id="scoreboard">
+			<font id="leftboard">0</font>&nbsp;:&nbsp;<font id="rightboard">0</font>
+		</div>
 	</div>
-	<footer>This is an example of creating a Ping Pong Game.</footer>
+
+	<!-- <footer>This is an example of creating a Ping Pong Game.</footer> -->
 	<script src="../js/jquery-1.9.1.min.js"></script>
 	<script src="../js/pingpong.js"></script>
 </body>

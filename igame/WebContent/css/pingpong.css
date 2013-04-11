@@ -21,12 +21,13 @@
 .paddle {
 	background: #bbf;
 	position: absolute;
-	width: 30px; height : 70px; left : 50px;
-	top: 70px;
-	height: 70px;
+	width: 10px; height : 70px; left : 50px;
+	top: 30px;
+	height: 50px;
 	left: 50px;
 }
 
 #paddleB {
 	left: 320px;
 }
+
