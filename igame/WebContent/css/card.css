@@ -51,6 +51,7 @@ body {
 	position: absolute;
 	-moz-transition: all .3s;
 	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
 	transition: all .3s;
 	margin-top: 10px;
 	margin-left: 12px;
@@ -64,6 +65,10 @@ body {
 	-webkit-transition-property: opacity, transform, box-shadow;
 	-webkit-transition-duration: .7s;
 	-webkit-backface-visibility: hidden;
+	
+	-moz-transition-property: opacity, transform, box-shadow;
+	-moz-transition-duration: .7s;
+	-moz-backface-visibility: hidden;
 }
 
 .front {
